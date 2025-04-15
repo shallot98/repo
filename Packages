@@ -34,6 +34,24 @@ Author: CoolStar & Lizynz
 Name: ClassicFolders 3 非摩登透明版
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/cf3/js.json
 
+Package: com.25mao.doutu.rootless
+Version: 3.1-5
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: ./debs/斗图助手-Rootless_3.1-5_iphoneos-arm64e.deb
+Size: 1211004
+MD5sum: 5d382bc6339e1615127778715fa516ad
+SHA1: b97615748f9cf331d6220ece440296814f155aab
+SHA256: 6996ec255fae5f3a33423d7501e260d5c8cfe32838c4f88359f1d4d58cedd130
+Section: Rootless
+Priority: optional
+Description: 斗图助手-Rootless
+Author: Mao
+Name: 斗图助手-Rootless
+Sponsor: admin@25mao.com
+
 Package: com.25mao.leftpan.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64e

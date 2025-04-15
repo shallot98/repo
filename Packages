@@ -156,6 +156,23 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/PKC/icon.png
 Name: PKC 助手
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/PKC/js.json
 
+Package: com.dao.filzacrack
+Version: 1.1-8
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: ./debs/Filza Crack(RootHide)_1.1-8_iphoneos-arm64e.deb
+Size: 5156
+MD5sum: 76997e52e11062bbe1ca137650fcaeb0
+SHA1: 522162a1ed0d2bc5ed17681b50cb40e220b96051
+SHA256: d83eec7a4d0b6320f47f8adaa1ef8d8d24bcd82992181206fb50bd5a15dde9c9
+Section: 嗨-工具
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持 roothide。
+Author: Netskao
+Name: Filza Crack(RootHide)
+
 Package: com.dao.settingsrevamp
 Version: 3.0.1.1
 Architecture: iphoneos-arm64e
@@ -585,6 +602,25 @@ Section: System
 Description: load preferences in style
 Author: Dhinak G <dhinak@dhinak.net>
 Name: PreferenceLoader
+
+Package: roothide.patches.filza
+Version: 0.4-15
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 268
+Depends: com.roothide.patchloader
+Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
+Provides: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Filename: ./debs/Patches for Filza 64bit_0.4-15_iphoneos-arm64e.deb
+Size: 31036
+MD5sum: aefc7af0e624d725a7ce14c2432cee4f
+SHA1: 833138725350b7380a0ecd4fb3eea92791793651
+SHA256: 3d7a618f534d744c418e9a49c849d86624f6082b24ea91ee4b3fd243c1872412
+Section: RootHide Patches
+Description: RootHide Dynamic Patches For Filza
+Author: roothide
+Name: Patches for Filza 64bit
 
 Package: ws.hbang.alderis
 Version: 1.2.3-8+debug

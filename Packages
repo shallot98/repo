@@ -1,0 +1,18 @@
+Package: con.julioverne.keyswipe.rootless
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: org.thebigboss.keyswipe, xyz.cypwn.keyswipe
+Filename: ./debs/KeySwipe-Rootless_1.0.3_iphoneos-arm64.deb
+Size: 13132
+MD5sum: fa6fcae7d0776a0deb64a3b5bb118239
+SHA1: 21bd560ec6059e6a57aaf9e14cd0dc12e5251381
+SHA256: 6300a1d94e6a014f95e485a0f92a619d48579fece7e5ab9cd06a4d829b910967
+Section: 插件
+Description: 通过向上/向下滑动更改键盘
+Author: Delewhopper & julioverne
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/keyswipe.png
+Name: KeySwipe-Rootless
+Sponsor: CyPwn
+
